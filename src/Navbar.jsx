@@ -10,7 +10,7 @@ export default function Navbar() {
     <Link className="flex items-center" to={'/'}>
 
  <img src='/trip-unscreen.gif' className='h-[60px]' alt="Logo"  />
-<p>Dreamly</p>
+<p className='text-2xl font-medium'>Dreamly</p>
     </Link>
 
 </div>
@@ -20,7 +20,7 @@ export default function Navbar() {
     <button className="md:hidden" type="button" 
     onClick={() => setShowbar(showbar==true ? false:true)}
     >
-    <i className='fa-solid fa-bars'></i>
+    <i className='fa-solid fa-bars text-xl px-8'></i>
     </button>
 
     
