@@ -7,7 +7,7 @@ export default function Footer() {
   <div className='text-center'>
 
           <Link className="flex items-center " to={'/'}>
- <img src='/public/trip-unscreen.gif' className='h-[60px]' alt="Logo"  />
+ <img src='/trip-unscreen.gif' className='h-[60px]' alt="Logo"  />
 <p>Dreamly</p>
     </Link>
     © 2025 

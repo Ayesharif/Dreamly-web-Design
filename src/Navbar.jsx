@@ -9,7 +9,7 @@ export default function Navbar() {
 <div className='md:w-[30%] flex justify-center'>
     <Link className="flex items-center" to={'/'}>
 
- <img src='/public/trip-unscreen.gif' className='h-[60px]' alt="Logo"  />
+ <img src='/trip-unscreen.gif' className='h-[60px]' alt="Logo"  />
 <p>Dreamly</p>
     </Link>
 
