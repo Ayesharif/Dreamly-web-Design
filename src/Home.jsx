@@ -66,14 +66,14 @@ export default function Home() {
   location.map((item, key)=>(
 
   
-  <div key={key} className='grid sm:grid-cols-2 lg:grid-cols-1  lg:w-[300px] sm:bg-none sm:gap-10 lg:gap-0 lg:bg-gradient-to-b from-[#f5f0cd] to-[#fada7a] rounded-lg shadow-lg '>
+  <div key={key} className='grid sm:grid-cols-2 lg:grid-cols-1  lg:w-[300px]  sm:gap-10 lg:gap-0 bg-gradient-to-b from-[#f5f0cd] to-[#fada7a] rounded-lg shadow-lg '>
             <img src={item.image} className='w-[100%] rounded' alt="" />
             <div className='bg-gradient-to-b from-[#f5f0cd] to-[#fada7a]'>
               <h2 className='text-lg md:text-xl font-medium py-2 p-2'>{item.name}</h2>
               <p className='p-2'>{item.description}</p>
-            </div>
             <div className='flex items-center w-[100%] flex-col py-5'>
             <button className='border-2 w-[90%] rounded hover:bg-[#b1f0f7] py-1 cursor-pointer '>Details</button>
+            </div>
             </div>
           </div>
   )) 
